@@ -1,6 +1,6 @@
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
-import { Card } from './components/Card';
+import { Card } from './components/Profile/Card';
 
 function App() {
   return (
