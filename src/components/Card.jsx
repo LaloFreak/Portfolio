@@ -1,4 +1,4 @@
-import s from "./css/Cards.module.css"
+import s from "./css/Card.module.css"
 import picLaloFreak from "../images/LaloFreak.jpg"
 
 export const Card = () => {
