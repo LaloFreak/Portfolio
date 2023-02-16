@@ -1,3 +1,4 @@
+import { OptionCanvas } from "../Options/OptionsCanvas"
 import s from "./css/Card.module.css"
 import { Menu } from "./Menu"
 import { Profile } from "./Profile"
@@ -9,6 +10,9 @@ export const Card = () => {
                 <div className={s.profileLalo}>
                     <Profile/>
                     <Menu/>
+                </div>
+                <div>
+                    <OptionCanvas/>
                 </div>
             </div>
         </div>

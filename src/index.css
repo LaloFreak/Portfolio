@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:link, :visited{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.774);
+}
+:link:hover{
+  color: white;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 100%;
+  position: absolute;
+}
+::-webkit-scrollbar-track {
+  background: linear-gradient(168deg, rgb(72, 72, 72) 20% , #171717 120%);
+}
+::-webkit-scrollbar-thumb {
+  background: #fff2;
+  border-radius: 1px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fff4;
+}
