@@ -80,6 +80,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
+    font-family: Trajan;
 }
 
 .name{
@@ -88,6 +89,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate-reverse;
+    font-family: Trajan;
 }
 @keyframes resplandorName {
     from {filter: drop-shadow(0px 0px 1px rgb(255, 255, 174));}
