@@ -37,7 +37,7 @@
     cursor: pointer;
     background: linear-gradient(230deg, rgb(27, 27, 27), #000000 85%);
     color: white;
-    box-shadow: 0px 0px 10px yellow;
+    box-shadow: 0px 0px 10px white;
 }
 
 .bgCanvas{
@@ -49,7 +49,6 @@
 .profileLalo{
     background: linear-gradient(to left, #000000, #0e0e0e 99%);
     width: 30vw;
-    min-width: 300px;
     height: 100vh;
     box-shadow: 0px 0px 100px #434343;
     font-family: Trajan;
@@ -58,7 +57,6 @@
     overflow-y: auto;
     transform: translateX(-30vw);
     transition-duration: 1s;
-
 }
 
 .imgProfile{
@@ -66,14 +64,14 @@
     margin-top: 100px;
     border-color: rgba(255, 255, 255, 0.735);
     box-shadow: 0px 0px 10px white;
-    filter: grayscale(.4);
+    filter: grayscale(.5);
     transition-duration: .5s;
     cursor: pointer;
 }
 
 .imgProfile:hover{
-    filter: grayscale(0);
-    box-shadow: 0px 0px 15px yellow;
+    filter: grayscale(.3);
+    box-shadow: 0px 0px 15px white;
 }
 
 .alias{
@@ -96,6 +94,6 @@
     to {filter: drop-shadow(0px 0px 1px rgba(255, 255, 255, 0));}
 }
 @keyframes resplandorAlias {
-    from {filter: drop-shadow(0px 0px 2px rgba(255, 255, 0, 0.768));}
+    from {filter: drop-shadow(0px 0px 2px rgba(254, 254, 159, 0.768));}
     to {filter: drop-shadow(0px 0px 3px rgb(251, 251, 251));}
 }
