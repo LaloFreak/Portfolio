@@ -7,7 +7,7 @@ export const Card = () => {
     return (
         <div className={s.contLandingPage}>
             <div className={s.bgCanvas}>
-                <div className={s.profileLalo}>
+                <div className={s.profileLalo} id="profileLalo">
                     <Profile/>
                     <Menu/>
                 </div>

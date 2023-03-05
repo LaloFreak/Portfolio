@@ -1,0 +1,57 @@
+.navCont{
+  top: 35vh;
+  left: 15px;
+  height: auto;
+  width: 50px;
+  background-color: rgba(0, 0, 0, 0.746);
+  position: fixed;
+  border: none;
+  border-radius: 15px;
+  transition-duration: 1s;
+  opacity: .7;
+}
+.navCont:hover{
+  opacity: 1;
+  box-shadow: 0px 0px 4px yellow;
+}
+.ulCont{
+  list-style: none;
+}
+.ulCont>li{
+  margin-top: 2px;
+  margin-bottom: 2px;
+  position: relative;
+}
+
+.profileImg, .webImg, .soundImg, .designImg, .contactImg{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin-left: -30px;
+  border-radius: 100%;
+  background-size: cover;
+  filter: grayscale(0.2);
+  transition-duration: 1s;
+}
+.profileImg{
+  background-image: url(../../../images/user-icon.png);
+}
+.webImg{
+  background-image: url(../../../images/web-icon.png);
+}
+.soundImg{
+  background-image: url(../../../images/sound-icon.png);
+}
+.designImg{
+  background-image: url(../../../images/design-icon.png);
+}
+.contactImg{
+  background-image: url(../../../images/contact-icon.png);
+}
+.profileImg:hover, .webImg:hover, .soundImg:hover, .designImg:hover, .contactImg:hover{
+  cursor: pointer;
+  filter: grayscale(0);
+  box-shadow: 0px 0px 15px yellow;
+}

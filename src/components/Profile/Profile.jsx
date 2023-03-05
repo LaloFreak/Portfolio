@@ -7,7 +7,17 @@ export const Profile = () => {
     const dispatch = useDispatch()
     return (
         <>
-            <img className={s.imgProfile} src={picLaloFreak} alt="LaloFreak" width="150px" onClick={()=>{return dispatch(resetOption())}} />
+            <img 
+                className={s.imgProfile} 
+                src={picLaloFreak} 
+                alt="LaloFreak" 
+                width="150px" 
+                onClick={()=>{return (
+                    dispatch(resetOption()),
+                    document.querySelector('#profileLalo').style.transform='translateX(-30vw)',
+                    document.querySelector('#navCont').style.transform='translateX(0)'
+                    )}}
+                />
             <h2 className={s.name} style={{color: "white", fontWeight: 'thin', fontSize:"25px", filter:'drop-shadow(0px 0px .1px yellow)'}}>Gerardo guarda</h2>
             <h3 className={s.alias} style={{color: "white", fontWeight: 'thin', fontSize:"15px"}}>lalofreak</h3>
         </>
