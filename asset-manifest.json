@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c7bb70c.css",
-    "main.js": "/static/js/main.8781e9ae.js",
+    "main.css": "/static/css/main.f59a8f3e.css",
+    "main.js": "/static/js/main.a89fb4c5.js",
     "static/media/LaloFreak.jpg": "/static/media/LaloFreak.ea38583a22d2dc34ca64.jpg",
+    "static/media/sound-icon.png": "/static/media/sound-icon.346458df4a880ee5b02a.png",
+    "static/media/web-icon.png": "/static/media/web-icon.a3fb6e7323691f5ee9fe.png",
+    "static/media/design-icon.png": "/static/media/design-icon.90ada9d2bf4e493c2ea9.png",
     "static/media/TrajanusBricks.ttf": "/static/media/TrajanusBricks.71e1e39446431f2fe965.ttf",
+    "static/media/user-icon.png": "/static/media/user-icon.9856c6c8f058fdabac81.png",
     "index.html": "/index.html",
-    "main.1c7bb70c.css.map": "/static/css/main.1c7bb70c.css.map",
-    "main.8781e9ae.js.map": "/static/js/main.8781e9ae.js.map"
+    "main.f59a8f3e.css.map": "/static/css/main.f59a8f3e.css.map",
+    "main.a89fb4c5.js.map": "/static/js/main.a89fb4c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c7bb70c.css",
-    "static/js/main.8781e9ae.js"
+    "static/css/main.f59a8f3e.css",
+    "static/js/main.a89fb4c5.js"
   ]
 }
