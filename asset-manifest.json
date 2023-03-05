@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f59a8f3e.css",
-    "main.js": "/static/js/main.a89fb4c5.js",
+    "main.css": "/static/css/main.e1b7d5c8.css",
+    "main.js": "/static/js/main.47ab6910.js",
     "static/media/LaloFreak.jpg": "/static/media/LaloFreak.ea38583a22d2dc34ca64.jpg",
     "static/media/sound-icon.png": "/static/media/sound-icon.346458df4a880ee5b02a.png",
     "static/media/web-icon.png": "/static/media/web-icon.a3fb6e7323691f5ee9fe.png",
@@ -9,11 +9,11 @@
     "static/media/TrajanusBricks.ttf": "/static/media/TrajanusBricks.71e1e39446431f2fe965.ttf",
     "static/media/user-icon.png": "/static/media/user-icon.9856c6c8f058fdabac81.png",
     "index.html": "/index.html",
-    "main.f59a8f3e.css.map": "/static/css/main.f59a8f3e.css.map",
-    "main.a89fb4c5.js.map": "/static/js/main.a89fb4c5.js.map"
+    "main.e1b7d5c8.css.map": "/static/css/main.e1b7d5c8.css.map",
+    "main.47ab6910.js.map": "/static/js/main.47ab6910.js.map"
   },
   "entrypoints": [
-    "static/css/main.f59a8f3e.css",
-    "static/js/main.a89fb4c5.js"
+    "static/css/main.e1b7d5c8.css",
+    "static/js/main.47ab6910.js"
   ]
 }
