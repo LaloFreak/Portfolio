@@ -1,7 +1,8 @@
-import { RESET_OPTION, SET_OPTION } from "../../misc/consts"
+import { RESET_OPTION, SET_OPTION, SET_LANGUAGE } from "../../misc/consts"
 
 const initialState = {
     option: 'programation, design & sound',
+    language: 'EN'
 }
 
 
@@ -16,6 +17,11 @@ export default function rootReducer(state = initialState, action){
             return {
                 ...state,
                 option: 'programation, design & sound'
+            }
+        case SET_LANGUAGE:
+            return {
+                ...state,
+                language: action.payload
             }
         default:
             return {...state}

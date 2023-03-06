@@ -1,12 +1,12 @@
-import { useDispatch } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
 import { resetOption, setOption } from "../../middlewares/redux/actions"
 import s from "./css/Card.module.css"
 
 export const Menu = () => {
     const dispatch = useDispatch()
+    const language = useSelector(state=>state.language)
     return (
         <>
-
             <div 
                 className={s.divH2}
                 onClick={()=>{return (
@@ -15,7 +15,12 @@ export const Menu = () => {
                     document.querySelector('#navCont').style.transform='translateX(0)'
                     )}}
             >
-                <h2>Home</h2>
+                <h2>
+                    {
+                        language==='EN'?
+                        'Home' : 'Inicio'
+                    }
+                </h2>
             </div>
 
             <div 
@@ -26,7 +31,9 @@ export const Menu = () => {
                     document.querySelector('#navCont').style.transform='translateX(0)'
                 )}}
             >
-                <h2>Bio</h2>
+                <h2>
+                    Bio
+                </h2>
             </div>
 
             <div 

@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import { Card } from './components/Profile/Card';
 import { Navigator } from './components/Navigator/Navigator';
 import { Landing } from './components/Landing/Landing';
+import { Language } from './components/Language/Language';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Navigator/>
         </Route>
       </Switch>
+      <Language/>
     </div>
   );
 }
