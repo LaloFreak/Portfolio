@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a9c9ebf.css",
-    "main.js": "/static/js/main.2482a1a3.js",
+    "main.css": "/static/css/main.aa6baad6.css",
+    "main.js": "/static/js/main.b7477051.js",
     "static/media/LaloFreak.jpg": "/static/media/LaloFreak.ea38583a22d2dc34ca64.jpg",
     "static/media/sound-icon.png": "/static/media/sound-icon.346458df4a880ee5b02a.png",
     "static/media/web-icon.png": "/static/media/web-icon.a3fb6e7323691f5ee9fe.png",
@@ -10,11 +10,11 @@
     "static/media/menu-icon.png": "/static/media/menu-icon.a2fa2f991f417967d6fe.png",
     "static/media/logout-icon.png": "/static/media/logout-icon.26e10dd9b4634ee450fc.png",
     "index.html": "/index.html",
-    "main.7a9c9ebf.css.map": "/static/css/main.7a9c9ebf.css.map",
-    "main.2482a1a3.js.map": "/static/js/main.2482a1a3.js.map"
+    "main.aa6baad6.css.map": "/static/css/main.aa6baad6.css.map",
+    "main.b7477051.js.map": "/static/js/main.b7477051.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a9c9ebf.css",
-    "static/js/main.2482a1a3.js"
+    "static/css/main.aa6baad6.css",
+    "static/js/main.b7477051.js"
   ]
 }
