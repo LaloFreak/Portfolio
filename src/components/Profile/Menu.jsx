@@ -1,5 +1,4 @@
 import { useDispatch } from "react-redux"
-import { Link } from "react-router-dom"
 import { resetOption, setOption } from "../../middlewares/redux/actions"
 import s from "./css/Card.module.css"
 
@@ -40,11 +39,6 @@ export const Menu = () => {
             >
                 <h2>CV</h2>
             </div>
-            <Link to='/'>
-                <div className={s.divH2}>
-                    <h2>Salir</h2>
-                </div>
-            </Link>
         </>
     )
 }

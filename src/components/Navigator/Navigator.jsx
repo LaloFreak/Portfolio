@@ -1,5 +1,6 @@
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
+import { Link } from "react-router-dom"
 import { setOption } from "../../middlewares/redux/actions"
 import s from "./css/Navigator.module.css"
 import { optionActive } from "./js/functions"
@@ -58,6 +59,9 @@ export const Navigator = () => {
               document.querySelector('#navCont').style.transform='translateX(0vw)'
               )}}
             />
+            <Link to='/'>
+              <div className={s.logoutImg}/>
+            </Link>
         </li>
       </ul>
     </div>

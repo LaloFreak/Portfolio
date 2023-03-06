@@ -21,7 +21,8 @@
   transition-duration: .5s;
   color: #000000;
   font-weight: thin; 
-  font-family: Trajan; 
+  font-family: Trajan;
+  padding: 5px;
 }
 
 .enterBtn:hover{
@@ -29,6 +30,7 @@
   background: linear-gradient(230deg, rgb(27, 27, 27), #000000 85%);
   color: white;
   box-shadow: 0px 0px 10px white;
+  scale: 1.1
 }
 .img{
   width: 200px;

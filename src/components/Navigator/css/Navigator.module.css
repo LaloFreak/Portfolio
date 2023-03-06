@@ -22,7 +22,12 @@
   position: relative;
 }
 
-.profileImg, .webImg, .soundImg, .designImg, .contactImg{
+.profileImg, 
+.webImg, 
+.soundImg, 
+.designImg, 
+.contactImg,
+.logoutImg{
   margin-top: 15px;
   margin-bottom: 15px;
   width: 30px;
@@ -50,7 +55,15 @@
 .contactImg{
   background-image: url(../../../images/contact-icon.png);
 }
-.profileImg:hover, .webImg:hover, .soundImg:hover, .designImg:hover, .contactImg:hover{
+.logoutImg{
+  background-image: url(../../../images/logout-icon.png);
+}
+.profileImg:hover,
+.webImg:hover, 
+.soundImg:hover, 
+.designImg:hover, 
+.contactImg:hover, 
+.logoutImg:hover{
   cursor: pointer;
   scale: 1.2;
 }
