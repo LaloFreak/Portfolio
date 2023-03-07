@@ -25,7 +25,7 @@ export const OptionCanvas = () => {
             {option==='programation, design & sound'?
             <><Home/>
             <div className={s.btnsCont}>
-                <img src alt='' />
+                <img src='true' alt='' />
                 <img 
                     className={s.menuback} 
                     onClick={()=>{return dispatch(setOption('bio'))}}
