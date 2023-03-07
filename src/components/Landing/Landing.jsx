@@ -12,7 +12,7 @@ export const Landing = () => {
         {
           language==='EN'?
           'Programation, Design & Sound':
-          'Programación, Diseño y Sonido'
+          'Programación, Diseño & Sonido'
         }
       </p>
       <Link to='/home'>

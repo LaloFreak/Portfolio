@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { Link } from "react-router-dom"
-import { setOption } from "../../middlewares/redux/actions"
+import { resetOption, setOption } from "../../middlewares/redux/actions"
 import s from "./css/Navigator.module.css"
 import { optionActive } from "./js/functions"
 
@@ -60,7 +60,7 @@ export const Navigator = () => {
               )}}
             />
             <Link to='/'>
-              <div className={s.logoutImg}/>
+              <div className={s.logoutImg} onClick={()=>{return dispatch(resetOption())}} />
             </Link>
         </li>
       </ul>
