@@ -8,7 +8,7 @@ export const Bio = () => {
         <div className={s.cont}>
         {
             language==='EN'?
-            (<><h4 className={s.par}>
+            (<>
             <h4 className={s.par}>
                 I was born on Wednesday, September 16, 1992, in Valdivia, in the south of Chile.
             </h4>
@@ -18,7 +18,7 @@ export const Bio = () => {
                 At the age of 12, I began to study in Valdivia at the "Instituto Salesiano de Valdivia", where I completed my studies to begin my university career in Electronic Civil Engineering at the Federico Santa María Technical University, in Valparaíso.            </h4>
             <h4 className={s.par}>
                 Over the years, I began to dedicate my time to developing web applications, to later apply to the FullStack Web Developer Bootcamp at SoyHenry.            </h4>
-            </h4>
+    
             <h4 className={s.par}>
                 Background: FullStack Developer SoyHenry, Ing. Electrónica en Universidad Santa María, Lic. en Artes mención Sonido en Universidad de Chile
             </h4></>)
