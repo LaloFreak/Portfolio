@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ddd09cf8.css",
-    "main.js": "/static/js/main.4f8162b4.js",
+    "main.js": "/static/js/main.9346d6cb.js",
     "static/media/LaloFreak.jpg": "/static/media/LaloFreak.ea38583a22d2dc34ca64.jpg",
     "static/media/sound-icon.png": "/static/media/sound-icon.346458df4a880ee5b02a.png",
     "static/media/web-icon.png": "/static/media/web-icon.a3fb6e7323691f5ee9fe.png",
@@ -12,10 +12,10 @@
     "static/media/logout-icon.png": "/static/media/logout-icon.26e10dd9b4634ee450fc.png",
     "index.html": "/index.html",
     "main.ddd09cf8.css.map": "/static/css/main.ddd09cf8.css.map",
-    "main.4f8162b4.js.map": "/static/js/main.4f8162b4.js.map"
+    "main.9346d6cb.js.map": "/static/js/main.9346d6cb.js.map"
   },
   "entrypoints": [
     "static/css/main.ddd09cf8.css",
-    "static/js/main.4f8162b4.js"
+    "static/js/main.9346d6cb.js"
   ]
 }
