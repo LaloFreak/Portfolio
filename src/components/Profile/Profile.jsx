@@ -18,8 +18,8 @@ export const Profile = () => {
                     document.querySelector('#navCont').style.transform='translateX(0)'
                     )}}
                 />
-            <h2 className={s.name} style={{color: "white", fontWeight: 'thin', fontSize:"25px", filter:'drop-shadow(0px 0px .1px yellow)'}}>Gerardo guarda</h2>
-            <h3 className={s.alias} style={{color: "white", fontWeight: 'thin', fontSize:"15px"}}>lalofreak</h3>
+            <h2 className={s.name} style={{color: "white", fontWeight: 'thin', filter:'drop-shadow(0px 0px .1px yellow)'}}>Gerardo guarda</h2>
+            <h3 className={s.alias} style={{color: "white", fontWeight: 'thin'}}>lalofreak</h3>
         </>
     )
 } 
