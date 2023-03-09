@@ -10,11 +10,12 @@ export function optionActive(e) {
 
 export function disapear(){
   const Div1 = document.getElementById('profileLalo');
-  const Div2 = document.getElementById('navCont')
+  const Div2 = document.getElementById('navCont');
+
   document.addEventListener('click', function(event) {
     if (!Div1.contains(event.target)&& !Div2.contains(event.target)) {
       Div1.style.transform='translateX(-30vw)';
-      Div2.style.transform='translateX(0)';
+      Div2.style.transform='translateX(0)'
     }
   });
 }

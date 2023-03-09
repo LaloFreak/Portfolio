@@ -20,7 +20,7 @@ function App() {
         </Route>
       </Switch>
       <Language/>
-      <div className='contSL' >
+      <div className='contSL' id='contSL' >
         <SocialLinks/>
       </div>
       <Footer/>
