@@ -67,6 +67,8 @@
     filter: grayscale(.5);
     transition-duration: .5s;
     cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+
 }
 
 .imgProfile:hover{
@@ -93,6 +95,14 @@
     animation-direction: alternate-reverse;
     font-family: Trajan;
 }
+
+.contSL{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
 @keyframes resplandorName {
     from {filter: drop-shadow(0px 0px 1px rgb(255, 255, 174));}
     to {filter: drop-shadow(0px 0px 1px rgba(255, 255, 255, 0));}
@@ -133,3 +143,4 @@
         scale: .6;
     }
 }
+

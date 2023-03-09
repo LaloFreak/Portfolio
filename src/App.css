@@ -29,10 +29,3 @@ body{
   width: 100vw;
   height: 100vh;
 }
-
-.contSL{
-  width: 100px;
-  height: 10px;
-  margin-left: 20px;
-  transition-duration: 1s;
-}
