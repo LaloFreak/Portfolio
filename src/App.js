@@ -4,6 +4,7 @@ import { Card } from './components/Profile/Card';
 import { Navigator } from './components/Navigator/Navigator';
 import { Landing } from './components/Landing/Landing';
 import { Language } from './components/Language/Language';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         </Route>
       </Switch>
       <Language/>
+      <Footer/>
     </div>
   );
 }
