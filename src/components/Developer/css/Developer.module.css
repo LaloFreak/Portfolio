@@ -1,0 +1,7 @@
+.devCont{
+  width: 100vw;
+  height: auto;
+  overflow-y: auto;
+  background-color: aqua;
+  position: relative;
+}
