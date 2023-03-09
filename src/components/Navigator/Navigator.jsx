@@ -3,13 +3,14 @@ import { useDispatch, useSelector } from "react-redux"
 import { Link } from "react-router-dom"
 import { resetOption, setOption } from "../../middlewares/redux/actions"
 import s from "./css/Navigator.module.css"
-import { optionActive } from "./js/functions"
+import { disapear, optionActive } from "./js/functions"
 
 export const Navigator = () => {
   const dispatch = useDispatch()
   const option = useSelector(state=>state.option)
   useEffect(()=>{
     optionActive(option? option : '')
+    disapear()
   }, [option])
   return (
     <div className={s.navCont} id='navCont'>
