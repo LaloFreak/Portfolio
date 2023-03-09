@@ -23,7 +23,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://developers.terminalkiller.site",
+  "homepage": "developers.terminalkiller.site",
   "eslintConfig": {
     "extends": [
       "react-app",
