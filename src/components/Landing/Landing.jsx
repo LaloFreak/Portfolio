@@ -7,7 +7,7 @@ export const Landing = () => {
   const language = useSelector(state=>state.language)
   return (
     <div className={s.landingCont}>
-    <div className={s.webBg}/>
+    {/* <div className={s.webBg}/> */}
       <Profile />
       <p style={{color:'white'}}>
         {
