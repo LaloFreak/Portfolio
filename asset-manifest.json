@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/developers.terminalkiller.site/static/css/main.b6a5ecb7.css",
+    "main.css": "/developers.terminalkiller.site/static/css/main.c6657b39.css",
     "main.js": "/developers.terminalkiller.site/static/js/main.3cd9a621.js",
     "static/media/web-bg-landing.png": "/developers.terminalkiller.site/static/media/web-bg-landing.0ec9d8186d23249e0a24.png",
     "static/media/web-bg.png": "/developers.terminalkiller.site/static/media/web-bg.f0f58a46692ef7792bc1.png",
@@ -13,11 +13,11 @@
     "static/media/menu-icon.png": "/developers.terminalkiller.site/static/media/menu-icon.a2fa2f991f417967d6fe.png",
     "static/media/logout-icon.png": "/developers.terminalkiller.site/static/media/logout-icon.26e10dd9b4634ee450fc.png",
     "index.html": "/developers.terminalkiller.site/index.html",
-    "main.b6a5ecb7.css.map": "/developers.terminalkiller.site/static/css/main.b6a5ecb7.css.map",
+    "main.c6657b39.css.map": "/developers.terminalkiller.site/static/css/main.c6657b39.css.map",
     "main.3cd9a621.js.map": "/developers.terminalkiller.site/static/js/main.3cd9a621.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6a5ecb7.css",
+    "static/css/main.c6657b39.css",
     "static/js/main.3cd9a621.js"
   ]
 }
