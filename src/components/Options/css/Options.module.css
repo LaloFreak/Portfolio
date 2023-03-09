@@ -49,11 +49,14 @@
     display: flex;
     justify-content: space-between;
 }
-.btnsCont>img{
-    margin-top: 5px;
-    transition-duration: .4s;
-}
-.btnsCont>img:hover{
+
+.menuback:hover{
     cursor: pointer;
     scale: 1.1;
+}
+.menuback{
+    transition-duration: .4s;
+    width: 35px;
+    height: 35px;
+    margin-top: 12px;
 }
