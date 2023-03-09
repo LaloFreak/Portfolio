@@ -51,7 +51,7 @@ export const OptionCanvas = () => {
                     width='30px'
                     style={{rotate: '180deg'}}
                     />
-                    <h3 style={{fontFamily: 'Trajan', fontSize:'18px', marginLeft:'10px'}}>home</h3>
+                    <h3 style={{fontFamily: 'Trajan', fontSize:'18px', marginLeft:'10px'}}>{language==='EN'? 'home':'inicio'}</h3>
                 </div>
                 <div style={{display:'flex'}}>
                     <h3 style={{fontFamily: 'Trajan', fontSize:'18px', marginRight:'10px'}}>cv</h3>
