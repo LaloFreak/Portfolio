@@ -21,6 +21,7 @@ export const OptionCanvas = () => {
     }
     return (
         <div className={s.contOptions}>
+            <div className={s.webBg}/>
             <OptionTitle title={langOption(option)} />
             {option==='programation, design & sound'?
             <><Home/>

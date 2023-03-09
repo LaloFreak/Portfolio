@@ -8,7 +8,20 @@
   height: 100vh;
   background: linear-gradient(230deg, #282828fd, #0c0c0c 85%);
 }
-
+.webBg{
+  background-image: url(../../../images/web-bg-landing.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  opacity: .5;
+  animation-name: animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+}
 .enterBtn{
   background: linear-gradient(230deg, rgb(185, 185, 185), #919191 85%);
   width: 30%;
@@ -41,5 +54,16 @@
 @media (max-width: 550px) {
   .enterBtn{
     font-size: 12px;
+  }
+}
+
+@keyframes animation {
+  from {
+    opacity: .3;
+    scale: 1.1
+  }
+  to {
+    opacity: .1;
+    scale: 1
   }
 }
