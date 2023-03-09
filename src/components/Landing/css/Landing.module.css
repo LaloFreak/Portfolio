@@ -51,6 +51,11 @@
   margin-top: 100px;
 }
 
+.contSL{
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 550px) {
   .enterBtn{
     font-size: 12px;
@@ -59,11 +64,11 @@
 
 @keyframes animation {
   from {
-    opacity: .3;
+    opacity: .2;
     scale: 1.1
   }
   to {
-    opacity: .1;
+    opacity: 0;
     scale: 1
   }
 }

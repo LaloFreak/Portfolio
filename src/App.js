@@ -5,6 +5,7 @@ import { Navigator } from './components/Navigator/Navigator';
 import { Landing } from './components/Landing/Landing';
 import { Language } from './components/Language/Language';
 import { Footer } from './components/Footer/Footer';
+import { SocialLinks } from './components/Utils/SocialLinks';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </Route>
       </Switch>
       <Language/>
+      <div className='contSL' >
+        <SocialLinks/>
+      </div>
       <Footer/>
     </div>
   );

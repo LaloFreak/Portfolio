@@ -1,7 +1,5 @@
 import { useSelector } from 'react-redux'
 import s from './css/Options.module.css'
-import linkedinIcon from "../../images/linkedin-icon.png"
-import githubIcon from "../../images/github-icon.png"
 
 export const Home = () => {
     const language = useSelector(state=>state.language)
@@ -27,10 +25,6 @@ export const Home = () => {
             </h4></>            
             )
         }
-        <div className={s.gridContainer}>
-            <div className={s.item}><a href='https://github.com/LaloFreak' target='_blank' rel="noreferrer"><img alt='img' src={githubIcon} className={s.icons} /></a></div>
-            <div className={s.item}><a href='https://www.linkedin.com/in/gerardo-guarda-acosta-07a751261/' target='_blank' rel="noreferrer"><img alt='img' src={linkedinIcon} className={s.icons} /></a></div>
-        </div>
         </div>        
     </>
     )
