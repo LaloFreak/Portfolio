@@ -13,7 +13,7 @@ function App() {
         <Route exact path='/'>
           <Landing/>
         </Route>
-        <Route exact path='/home'>
+        <Route exact path='/lalofreak'>
           <Card/>
           <Navigator/>
         </Route>

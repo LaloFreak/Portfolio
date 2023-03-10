@@ -12,7 +12,7 @@ export const OptionCanvas = () => {
     const language = useSelector(state=>state.language)
     const dispatch = useDispatch()
     const langOption = (option) => {
-        if(language==='ES' && option === 'programation, design & sound') return 'programacion, diseno & sonido'
+        if(language==='ES' && option === 'programming, design & sound') return 'programacion, diseno & sonido'
         if(language==='ES' && option === 'developer') return 'desarrollador'
         if(language==='ES' && option === 'sound') return 'sonido'
         if(language==='ES' && option === 'design') return 'diseno '
@@ -23,7 +23,7 @@ export const OptionCanvas = () => {
         <div className={s.contOptions}>
             <div className={s.webBg}/>
             <OptionTitle title={langOption(option)} />
-            {option==='programation, design & sound'?
+            {option==='programming, design & sound'?
             <><Home/>
             <div className={s.btnsCont}>
                 <img src='true' alt='' />
@@ -46,7 +46,7 @@ export const OptionCanvas = () => {
                 <div style={{display:'flex'}}>
                     <img 
                     className={s.menuback} 
-                    onClick={()=>{return dispatch(setOption('programation, design & sound'))}} 
+                    onClick={()=>{return dispatch(setOption('programming, design & sound'))}} 
                     src={arrowIcon} 
                     alt='next' 
                     width='30px'

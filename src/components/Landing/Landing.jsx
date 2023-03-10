@@ -13,11 +13,11 @@ export const Landing = () => {
       <p style={{color:'white'}}>
         {
           language==='EN'?
-          'Programation, Design & Sound':
+          'Programming, Design & Sound':
           'Programación, Diseño & Sonido'
         }
       </p>
-      <Link to='/home'>
+      <Link to='/lalofreak'>
         <div className={s.enterBtn}>
         {
           language==='EN'?
