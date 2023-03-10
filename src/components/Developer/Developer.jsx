@@ -55,7 +55,7 @@ export const Developer = () => {
 
         </ul>
         <ul className={s.devUl}>
-          <li key={'title3'} className={s.devLi}><h1>{language==='EN'?'Mobile':'Móvil'}</h1></li>
+          <li key={'title3'} className={s.devLi}><h1>{language==='EN'?'Mobile':'Movil'}</h1></li>
           {
             API?.at(2).mobile.map((e,index)=>{
               return(
