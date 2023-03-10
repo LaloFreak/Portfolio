@@ -6,7 +6,6 @@ export const Developer = () => {
   const language = useSelector(state=>state.language)
   return (
     <div className={s.devCont}>
-      <div className={s.webBg}/>
       <OptionTitle title={language==='EN'? 'portfolio: developer':'portafolio: desarrollador'}/>
       <div className={s.works}>
         <ul className={s.devUl}>
