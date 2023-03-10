@@ -1,9 +1,12 @@
+import { useSelector } from "react-redux"
+import { Developer } from "../Developer/Developer"
 import { OptionCanvas } from "../Options/OptionsCanvas"
 import s from "./css/Card.module.css"
 import { Menu } from "./Menu"
 import { Profile } from "./Profile"
 
 export const Card = () => {
+    const option = useSelector(state=>state.option)
     return (
         <div className={s.contLandingPage}>
             <div className={s.bgCanvas}>
@@ -11,9 +14,16 @@ export const Card = () => {
                     <Profile/>
                     <Menu/>
                 </div>
-                <div>
-                    <OptionCanvas/>
-                </div>
+                {
+                    option==='developer'? 
+                    <div>
+                        <Developer/>
+                    </div>
+                    :
+                    <div>
+                        <OptionCanvas/>
+                    </div>
+                }
             </div>
         </div>
     )

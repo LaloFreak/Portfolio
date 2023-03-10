@@ -1,7 +1,61 @@
 .devCont{
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100vw;
-  height: auto;
-  overflow-y: auto;
-  background-color: aqua;
+  height: 100vh;
+  padding-bottom: 100px;
+}
+.webBg{
+  background-image: url(../../../images/web-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  right: 10px;
+  animation-name: animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+}
+
+.works{
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.devUl{
   position: relative;
+  margin-left: 15%;
+  padding-bottom: 150px;
+  width: 70%;
+  height: 100%;
+  margin-top: 150px;
+  display: grid;
+}
+
+.devLi{
+  font-family: Trajan;
+  font-size: 20px;
+  list-style: none;
+  text-align: left;
+  transition-duration: .4s;
+}
+
+:link, :visited{
+  color: black
+}
+
+@keyframes animation {
+  from {
+    opacity: 1;
+    scale: 1
+  }
+  to {
+    opacity: .6;
+    scale: 1.2
+  }
 }
