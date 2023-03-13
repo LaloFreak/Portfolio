@@ -52,6 +52,10 @@
   border-radius: 3px;
   box-shadow: 0px 0px 7px black;
   margin-top: 10px;
+  background-image: url(../../../images/loading.gif);
+  background-repeat: no-repeat;
+  background-size: 45px;
+  background-position: center;
 }
 
 @media (max-width: 680px) {
