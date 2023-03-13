@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.53755884.css",
+    "main.css": "/static/css/main.3c53d842.css",
     "main.js": "/static/js/main.3718bd81.js",
     "static/media/web-bg-landing.png": "/static/media/web-bg-landing.0ec9d8186d23249e0a24.png",
     "static/media/cont-bg.png": "/static/media/cont-bg.f0f58a46692ef7792bc1.png",
@@ -8,7 +8,7 @@
     "static/media/LaloFreak.jpg": "/static/media/LaloFreak.ea38583a22d2dc34ca64.jpg",
     "static/media/sound-icon.png": "/static/media/sound-icon.346458df4a880ee5b02a.png",
     "static/media/web-icon.png": "/static/media/web-icon.a3fb6e7323691f5ee9fe.png",
-    "static/media/loading.gif": "/static/media/loading.66082e428188cd278ae8.gif",
+    "static/media/loading.gif": "/static/media/loading.647facef5ee495bfac5e.gif",
     "static/media/design-icon.png": "/static/media/design-icon.90ada9d2bf4e493c2ea9.png",
     "static/media/TrajanusBricks.ttf": "/static/media/TrajanusBricks.71e1e39446431f2fe965.ttf",
     "static/media/github-icon.png": "/static/media/github-icon.808a33dd25250fbe8510.png",
@@ -17,11 +17,11 @@
     "static/media/menu-icon.png": "/static/media/menu-icon.a2fa2f991f417967d6fe.png",
     "static/media/logout-icon.png": "/static/media/logout-icon.26e10dd9b4634ee450fc.png",
     "index.html": "/index.html",
-    "main.53755884.css.map": "/static/css/main.53755884.css.map",
+    "main.3c53d842.css.map": "/static/css/main.3c53d842.css.map",
     "main.3718bd81.js.map": "/static/js/main.3718bd81.js.map"
   },
   "entrypoints": [
-    "static/css/main.53755884.css",
+    "static/css/main.3c53d842.css",
     "static/js/main.3718bd81.js"
   ]
 }
