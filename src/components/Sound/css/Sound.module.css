@@ -44,3 +44,19 @@
     scale: 1.2
   }
 }
+
+.ytPlayer{
+  background-color: #171717;
+  width: 280px;
+  height: 157.5px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 7px black;
+  margin-top: 10px;
+}
+
+@media (max-width: 680px) {
+  .devLi{
+    font-size: 13px;
+
+  }
+}

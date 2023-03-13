@@ -18,7 +18,7 @@ export const Sound = () => {
                     <a href={`https://www.youtube.com/watch?v=${e.idYt}`} target='_blank' rel="noreferrer">
                       {e.name}
                     </a>
-                  <li>
+                  <li className={s.ytPlayer}>
                     <iframe width="280" height="157.5" src={`https://www.youtube.com/embed/${e.idYt}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </li>
                     <h4 style={{fontFamily:'Open Sans', fontSize:'12px'}}>
