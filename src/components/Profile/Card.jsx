@@ -1,4 +1,6 @@
 import { useSelector } from "react-redux"
+import { Contact } from "../Contact/Contact"
+import { Design } from "../Design/Design"
 import { Developer } from "../Developer/Developer"
 import { OptionCanvas } from "../Options/OptionsCanvas"
 import { Sound } from "../Sound/Sound"
@@ -27,9 +29,23 @@ export const Card = () => {
                         <Sound/>
                     </div>
                     :
+                (
+                    option==='design'? 
                     <div>
-                        <OptionCanvas/>
+                        <Design/>
                     </div>
+                    :
+                    (
+                        option==='contact'? 
+                        <div>
+                            <Contact/>
+                        </div>
+                        :
+                        <div>
+                            <OptionCanvas/>
+                        </div>
+                    )
+                )
                 )
             }
             </div>

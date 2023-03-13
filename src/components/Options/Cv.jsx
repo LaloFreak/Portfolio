@@ -1,4 +1,5 @@
 import { useSelector } from 'react-redux'
+import { UnderConstruction } from '../Utils/UnderConstruction'
 import s from './css/Options.module.css'
 
 export const Cv = () => {
@@ -20,6 +21,7 @@ export const Cv = () => {
             <h4 className={s.par}>
             </h4></>)
         }
+        <UnderConstruction/>
         </div>        
     </>
     )
