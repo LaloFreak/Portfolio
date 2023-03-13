@@ -61,8 +61,7 @@
 
 .imgProfile{
     border-radius: 100%;
-    position: relative;
-    margin-top: 40px;
+    margin-top: 60px;
     border-color: rgba(255, 255, 255, 0.735);
     box-shadow: 0px 0px 10px white;
     filter: grayscale(.5);
